@@ -1,0 +1,22 @@
+.gym-news{
+    display: flex;
+}
+.st-news{
+    flex: 1;
+}
+.hover-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effect */
+.hover-button:hover {
+    background-color: #45a049; /* Darker green */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Adds a shadow */
+}

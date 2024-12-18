@@ -1,0 +1,22 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+.row{
+    height: 400px;
+    display: flex;
+}
+.row > div{
+    flex: 1;
+}
+.ndc> img{
+    height: 50%;
+}
+.th{
+    display: flex;
+    flex-wrap: wrap;
+}
+.th>img{
+    height: 50%;
+    width: 50%;
+}

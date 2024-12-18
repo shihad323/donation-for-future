@@ -1,0 +1,55 @@
+header , .nav , main , .sidebar , .advertise , .footer{
+    background-color: rgb(225, 225, 145);
+    border: 2px solid yellow;
+    padding: 10px;
+    border-radius: 10px;
+}
+.header{
+    grid-area: header;
+}
+.nav{
+    grid-area: nav;
+}
+.main{
+    grid-area: main;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.advertise{
+    grid-area: advertise;
+}
+.footer{
+    grid-area: footer;
+}
+body{
+    display: grid;
+    grid-template-areas:
+    "header header header header"
+    "nav    main   main   sidebar"
+    "nav    main   main   advertise"
+    "footer footer footer footer"
+    ;
+    gap: 10px;
+}
+.sidebar{
+    margin-bottom: 30px;
+}
+.nav-manu{
+    list-style-type: none;
+}
+@media (max-width: 900px) {
+    body{
+        grid-template-areas: 
+        "header    header header"
+        "nav       nav    nav"
+        "sidebar   main   main"
+        "sidebar   main   main"
+        "advertise footer footer"
+        ;
+    }
+    .nav-manu{
+        display: flex;
+    }
+
+}

@@ -1,0 +1,13 @@
+[
+    { "id": 1, "name": "Alice", "city": "New York", "place": "Central Park", "age": 25, "occupation": "Engineer", "image": "https://picsum.photos/200/300?random=1" },
+    { "id": 2, "name": "Bob", "city": "Los Angeles", "place": "Hollywood", "age": 30, "occupation": "Designer", "image": "https://picsum.photos/200/300?random=2" },
+    { "id": 3, "name": "Charlie", "city": "Chicago", "place": "Willis Tower", "age": 28, "occupation": "Teacher", "image": "https://picsum.photos/200/300?random=3" },
+    { "id": 4, "name": "David", "city": "Houston", "place": "Space Center", "age": 35, "occupation": "Doctor", "image": "https://picsum.photos/200/300?random=4" },
+    { "id": 5, "name": "Eva", "city": "Phoenix", "place": "Desert Botanical Garden", "age": 27, "occupation": "Photographer", "image": "https://picsum.photos/200/300?random=5" },
+    { "id": 6, "name": "Frank", "city": "Philadelphia", "place": "Liberty Bell", "age": 40, "occupation": "Chef", "image": "https://picsum.photos/200/300?random=6" },
+    { "id": 7, "name": "Grace", "city": "San Antonio", "place": "River Walk", "age": 32, "occupation": "Nurse", "image": "https://picsum.photos/200/300?random=7" },
+    { "id": 8, "name": "Hannah", "city": "San Diego", "place": "Zoo", "age": 29, "occupation": "Biologist", "image": "https://picsum.photos/200/300?random=8" },
+    { "id": 9, "name": "Ian", "city": "Dallas", "place": "The Sixth Floor Museum", "age": 31, "occupation": "Historian", "image": "https://picsum.photos/200/300?random=9" },
+    { "id": 10, "name": "Julia", "city": "San Jose", "place": "Tech Museum", "age": 26, "occupation": "Engineer", "image": "https://picsum.photos/200/300?random=10" }
+  ]
+  
